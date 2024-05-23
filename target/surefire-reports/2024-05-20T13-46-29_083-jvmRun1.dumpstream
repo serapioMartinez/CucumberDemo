@@ -1,0 +1,423 @@
+# Created at 2024-05-20T13:46:50.201
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2024-05-20T13:46:57.738
+Unexpected IOException: I,2,sun.desktop,windows
+
+
+# Created at 2024-05-20T13:46:57.740
+Unexpected IOException: I,2,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created at 2024-05-20T13:46:57.741
+Unexpected IOException: I,2,java.specification.version,11
+
+
+# Created at 2024-05-20T13:46:57.741
+Unexpected IOException: I,2,sun.cpu.isalist,amd64
+
+
+# Created at 2024-05-20T13:46:57.744
+Unexpected IOException: I,2,sun.jnu.encoding,Cp1252
+
+
+# Created at 2024-05-20T13:46:57.746
+Unexpected IOException: I,2,java.class.path,C:\005CUsers\005CYadira\005CIdeaProjects\005CCucumberDemo\005Ctarget\005Ctest-classes;C:\005CUsers\005CYadira\005CIdeaProjects\005CCucumberDemo\005Ctarget\005Cclasses;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C4.20.0\005Cselenium-java-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C4.20.0\005Cselenium-api-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C4.20.0\005Cselenium-chrome-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cauto\005Cservice\005Cauto-service-annotations\005C1.1.1\005Cauto-service-annotations-1.1.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chromium-driver\005C4.20.0\005Cselenium-chromium-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-json\005C4.20.0\005Cselenium-json-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-manager\005C4.20.0\005Cselenium-manager-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v122\005C4.20.0\005Cselenium-devtools-v122-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v123\005C4.20.0\005Cselenium-devtools-v123-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v124\005C4.20.0\005Cselenium-devtools-v124-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v85\005C4.20.0\005Cselenium-devtools-v85-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C4.20.0\005Cselenium-edge-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C4.20.0\005Cselenium-firefox-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-http\005C4.20.0\005Cselenium-http-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cdev\005Cfailsafe\005Cfailsafe\005C3.3.2\005Cfailsafe-3.3.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C4.20.0\005Cselenium-ie-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C4.20.0\005Cselenium-remote-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C33.1.0-jre\005Cguava-33.1.0-jre.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cfailureaccess\005C1.0.2\005Cfailureaccess-1.0.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Clistenablefuture\005C9999.0-empty-to-avoid-conflict-with-guava\005Clistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C3.0.2\005Cjsr305-3.0.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-qual\005C3.42.0\005Cchecker-qual-3.42.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.26.1\005Cerror_prone_annotations-2.26.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C3.0.0\005Cj2objc-annotations-3.0.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Csemconv\005Copentelemetry-semconv\005C1.25.0-alpha\005Copentelemetry-semconv-1.25.0-alpha.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-api\005C1.37.0\005Copentelemetry-api-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-context\005C1.37.0\005Copentelemetry-context-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-exporter-logging\005C1.37.0\005Copentelemetry-exporter-logging-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-common\005C1.37.0\005Copentelemetry-sdk-common-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-extension-autoconfigure-spi\005C1.37.0\005Copentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-extension-autoconfigure\005C1.37.0\005Copentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-api-incubator\005C1.37.0-alpha\005Copentelemetry-api-incubator-1.37.0-alpha.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-trace\005C1.37.0\005Copentelemetry-sdk-trace-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk\005C1.37.0\005Copentelemetry-sdk-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-metrics\005C1.37.0\005Copentelemetry-sdk-metrics-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-logs\005C1.37.0\005Copentelemetry-sdk-logs-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.14.14\005Cbyte-buddy-1.14.14.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-os\005C4.20.0\005Cselenium-os-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.4.0\005Ccommons-exec-1.4.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C4.20.0\005Cselenium-safari-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C4.20.0\005Cselenium-support-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C7.16.1\005Ccucumber-java-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C7.16.1\005Ccucumber-core-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C7.16.1\005Ccucumber-gherkin-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C7.16.1\005Ccucumber-gherkin-messages-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cgherkin\005C28.0.0\005Cgherkin-28.0.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C24.1.0\005Cmessages-24.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C6.1.0\005Ctag-expressions-6.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C17.1.0\005Ccucumber-expressions-17.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C7.16.1\005Cdatatable-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C7.16.1\005Ccucumber-plugin-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C7.16.1\005Cdocstring-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C21.3.0\005Chtml-formatter-21.3.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cjunit-xml-formatter\005C0.3.0\005Cjunit-xml-formatter-0.3.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cci-environment\005C10.0.1\005Cci-environment-10.0.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.2\005Capiguardian-api-1.1.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C7.16.1\005Ccucumber-junit-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13.2\005Cjunit-4.13.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-core\005C2.23.1\005Clog4j-core-2.23.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.23.1\005Clog4j-api-2.23.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi-ooxml\005C5.2.5\005Cpoi-ooxml-5.2.5.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi-ooxml-lite\005C5.2.5\005Cpoi-ooxml-lite-5.2.5.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cxmlbeans\005Cxmlbeans\005C5.2.0\005Cxmlbeans-5.2.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-compress\005C1.25.0\005Ccommons-compress-1.25.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgithub\005Cvirtuald\005Ccurvesapi\005C1.08\005Ccurvesapi-1.08.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-collections4\005C4.4\005Ccommons-collections4-4.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi\005C5.2.5\005Cpoi-5.2.5.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.16.0\005Ccommons-codec-1.16.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-math3\005C3.6.1\005Ccommons-math3-3.6.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Czaxxer\005CSparseBitSet\005C1.3\005CSparseBitSet-1.3.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.15.1\005Ccommons-io-2.15.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.13.0\005Ccommons-lang3-3.13.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Cextentreports-cucumber7-adapter\005C1.14.0\005Cextentreports-cucumber7-adapter-1.14.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports\005C5.1.0\005Cextentreports-5.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Creactivex\005Crxjava3\005Crxjava\005C3.1.6\005Crxjava-3.1.6.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Creactivestreams\005Creactive-streams\005C1.0.4\005Creactive-streams-1.0.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cfreemarker\005Cfreemarker\005C2.3.32\005Cfreemarker-2.3.32.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cprojectlombok\005Clombok\005C1.18.26\005Clombok-1.18.26.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.10.1\005Cgson-2.10.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Cextent-pdf-report\005C2.12.0\005Cextent-pdf-report-2.12.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Ccucumber-pdf-report\005C2.14.0\005Ccucumber-pdf-report-2.14.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpdfbox\005Cpdfbox\005C2.0.26\005Cpdfbox-2.0.26.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpdfbox\005Cfontbox\005C2.0.26\005Cfontbox-2.0.26.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cknowm\005Cxchart\005Cxchart\005C3.8.0\005Cxchart-3.8.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cde\005Cerichseifert\005Cvectorgraphics2d\005CVectorGraphics2D\005C0.13\005CVectorGraphics2D-0.13.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cde\005Crototor\005Cpdfbox\005Cgraphics2d\005C0.30\005Cgraphics2d-0.30.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cmadgag\005Canimated-gif-lib\005C1.4\005Canimated-gif-lib-1.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C2.0\005Csnakeyaml-2.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Ctable-layout\005C1.5.1\005Ctable-layout-1.5.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Crest-assured-cucumber-pdf-report\005C1.5.0\005Crest-assured-cucumber-pdf-report-1.5.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cjsoup\005Cjsoup\005C1.15.3\005Cjsoup-1.15.3.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Caventstack\005Cklov-reporter\005C5.1.0\005Cklov-reporter-5.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver\005C3.6.4\005Cmongodb-driver-3.6.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver-core\005C3.6.4\005Cmongodb-driver-core-3.6.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cmongodb\005Cbson\005C3.6.4\005Cbson-3.6.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.13\005Chttpclient-4.5.13.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.13\005Chttpcore-4.4.13.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpmime\005C4.5.13\005Chttpmime-4.5.13.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Chtmlextentreporter\005C1.1.0\005Chtmlextentreporter-1.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Cextent-excel-report\005C1.4.0\005Cextent-excel-report-1.4.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-email\005C1.6.0\005Ccommons-email-1.6.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Csun\005Cmail\005Cjakarta.mail\005C1.6.7\005Cjakarta.mail-1.6.7.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Csun\005Cactivation\005Cjakarta.activation\005C1.2.1\005Cjakarta.activation-1.2.1.jar;
+
+
+# Created at 2024-05-20T13:46:57.747
+Unexpected IOException: I,2,java.vm.vendor,Oracle Corporation
+
+
+# Created at 2024-05-20T13:46:57.747
+Unexpected IOException: I,2,sun.arch.data.model,64
+
+
+# Created at 2024-05-20T13:46:57.748
+Unexpected IOException: I,2,user.variant,
+
+
+# Created at 2024-05-20T13:46:57.749
+Unexpected IOException: I,2,java.vendor.url,https://openjdk.java.net/
+
+
+# Created at 2024-05-20T13:46:57.750
+Unexpected IOException: I,2,user.timezone,America/Mexico_City
+
+
+# Created at 2024-05-20T13:46:57.751
+Unexpected IOException: I,2,os.name,Windows 11
+
+
+# Created at 2024-05-20T13:46:57.752
+Unexpected IOException: I,2,java.vm.specification.version,11
+
+
+# Created at 2024-05-20T13:46:57.753
+Unexpected IOException: I,2,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2024-05-20T13:46:57.754
+Unexpected IOException: I,2,user.country,MX
+
+
+# Created at 2024-05-20T13:46:57.755
+Unexpected IOException: I,2,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk-11\005Cbin
+
+
+# Created at 2024-05-20T13:46:57.756
+Unexpected IOException: I,2,sun.java.command,C:\005CUsers\005CYadira\005CAppData\005CLocal\005CTemp\005Csurefire1104669146400363251\005Csurefirebooter8576814789302426566.jar C:\005CUsers\005CYadira\005CAppData\005CLocal\005CTemp\005Csurefire1104669146400363251 2024-05-20T13-46-29_083-jvmRun1 surefire10780641705280964842tmp surefire_010945925037726137452tmp
+
+
+# Created at 2024-05-20T13:46:57.757
+Unexpected IOException: I,2,jdk.debug,release
+
+
+# Created at 2024-05-20T13:46:57.759
+Unexpected IOException: I,2,surefire.test.class.path,C:\005CUsers\005CYadira\005CIdeaProjects\005CCucumberDemo\005Ctarget\005Ctest-classes;C:\005CUsers\005CYadira\005CIdeaProjects\005CCucumberDemo\005Ctarget\005Cclasses;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C4.20.0\005Cselenium-java-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C4.20.0\005Cselenium-api-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C4.20.0\005Cselenium-chrome-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cauto\005Cservice\005Cauto-service-annotations\005C1.1.1\005Cauto-service-annotations-1.1.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chromium-driver\005C4.20.0\005Cselenium-chromium-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-json\005C4.20.0\005Cselenium-json-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-manager\005C4.20.0\005Cselenium-manager-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v122\005C4.20.0\005Cselenium-devtools-v122-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v123\005C4.20.0\005Cselenium-devtools-v123-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v124\005C4.20.0\005Cselenium-devtools-v124-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v85\005C4.20.0\005Cselenium-devtools-v85-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C4.20.0\005Cselenium-edge-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C4.20.0\005Cselenium-firefox-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-http\005C4.20.0\005Cselenium-http-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cdev\005Cfailsafe\005Cfailsafe\005C3.3.2\005Cfailsafe-3.3.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C4.20.0\005Cselenium-ie-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C4.20.0\005Cselenium-remote-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C33.1.0-jre\005Cguava-33.1.0-jre.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cfailureaccess\005C1.0.2\005Cfailureaccess-1.0.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Clistenablefuture\005C9999.0-empty-to-avoid-conflict-with-guava\005Clistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C3.0.2\005Cjsr305-3.0.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-qual\005C3.42.0\005Cchecker-qual-3.42.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.26.1\005Cerror_prone_annotations-2.26.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C3.0.0\005Cj2objc-annotations-3.0.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Csemconv\005Copentelemetry-semconv\005C1.25.0-alpha\005Copentelemetry-semconv-1.25.0-alpha.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-api\005C1.37.0\005Copentelemetry-api-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-context\005C1.37.0\005Copentelemetry-context-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-exporter-logging\005C1.37.0\005Copentelemetry-exporter-logging-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-common\005C1.37.0\005Copentelemetry-sdk-common-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-extension-autoconfigure-spi\005C1.37.0\005Copentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-extension-autoconfigure\005C1.37.0\005Copentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-api-incubator\005C1.37.0-alpha\005Copentelemetry-api-incubator-1.37.0-alpha.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-trace\005C1.37.0\005Copentelemetry-sdk-trace-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk\005C1.37.0\005Copentelemetry-sdk-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-metrics\005C1.37.0\005Copentelemetry-sdk-metrics-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-logs\005C1.37.0\005Copentelemetry-sdk-logs-1.37.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.14.14\005Cbyte-buddy-1.14.14.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-os\005C4.20.0\005Cselenium-os-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.4.0\005Ccommons-exec-1.4.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C4.20.0\005Cselenium-safari-driver-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C4.20.0\005Cselenium-support-4.20.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C7.16.1\005Ccucumber-java-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C7.16.1\005Ccucumber-core-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C7.16.1\005Ccucumber-gherkin-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C7.16.1\005Ccucumber-gherkin-messages-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cgherkin\005C28.0.0\005Cgherkin-28.0.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C24.1.0\005Cmessages-24.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C6.1.0\005Ctag-expressions-6.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C17.1.0\005Ccucumber-expressions-17.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C7.16.1\005Cdatatable-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C7.16.1\005Ccucumber-plugin-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C7.16.1\005Cdocstring-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C21.3.0\005Chtml-formatter-21.3.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cjunit-xml-formatter\005C0.3.0\005Cjunit-xml-formatter-0.3.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Cci-environment\005C10.0.1\005Cci-environment-10.0.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.2\005Capiguardian-api-1.1.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C7.16.1\005Ccucumber-junit-7.16.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13.2\005Cjunit-4.13.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-core\005C2.23.1\005Clog4j-core-2.23.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.23.1\005Clog4j-api-2.23.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi-ooxml\005C5.2.5\005Cpoi-ooxml-5.2.5.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi-ooxml-lite\005C5.2.5\005Cpoi-ooxml-lite-5.2.5.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cxmlbeans\005Cxmlbeans\005C5.2.0\005Cxmlbeans-5.2.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-compress\005C1.25.0\005Ccommons-compress-1.25.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgithub\005Cvirtuald\005Ccurvesapi\005C1.08\005Ccurvesapi-1.08.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-collections4\005C4.4\005Ccommons-collections4-4.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi\005C5.2.5\005Cpoi-5.2.5.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.16.0\005Ccommons-codec-1.16.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-math3\005C3.6.1\005Ccommons-math3-3.6.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Czaxxer\005CSparseBitSet\005C1.3\005CSparseBitSet-1.3.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.15.1\005Ccommons-io-2.15.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.13.0\005Ccommons-lang3-3.13.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Cextentreports-cucumber7-adapter\005C1.14.0\005Cextentreports-cucumber7-adapter-1.14.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports\005C5.1.0\005Cextentreports-5.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cio\005Creactivex\005Crxjava3\005Crxjava\005C3.1.6\005Crxjava-3.1.6.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Creactivestreams\005Creactive-streams\005C1.0.4\005Creactive-streams-1.0.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cfreemarker\005Cfreemarker\005C2.3.32\005Cfreemarker-2.3.32.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cprojectlombok\005Clombok\005C1.18.26\005Clombok-1.18.26.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.10.1\005Cgson-2.10.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Cextent-pdf-report\005C2.12.0\005Cextent-pdf-report-2.12.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Ccucumber-pdf-report\005C2.14.0\005Ccucumber-pdf-report-2.14.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpdfbox\005Cpdfbox\005C2.0.26\005Cpdfbox-2.0.26.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Cpdfbox\005Cfontbox\005C2.0.26\005Cfontbox-2.0.26.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cknowm\005Cxchart\005Cxchart\005C3.8.0\005Cxchart-3.8.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cde\005Cerichseifert\005Cvectorgraphics2d\005CVectorGraphics2D\005C0.13\005CVectorGraphics2D-0.13.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Cde\005Crototor\005Cpdfbox\005Cgraphics2d\005C0.30\005Cgraphics2d-0.30.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Cmadgag\005Canimated-gif-lib\005C1.4\005Canimated-gif-lib-1.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C2.0\005Csnakeyaml-2.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Ctable-layout\005C1.5.1\005Ctable-layout-1.5.1.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Crest-assured-cucumber-pdf-report\005C1.5.0\005Crest-assured-cucumber-pdf-report-1.5.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cjsoup\005Cjsoup\005C1.15.3\005Cjsoup-1.15.3.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Caventstack\005Cklov-reporter\005C5.1.0\005Cklov-reporter-5.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver\005C3.6.4\005Cmongodb-driver-3.6.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver-core\005C3.6.4\005Cmongodb-driver-core-3.6.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Cmongodb\005Cbson\005C3.6.4\005Cbson-3.6.4.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.13\005Chttpclient-4.5.13.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.13\005Chttpcore-4.4.13.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpmime\005C4.5.13\005Chttpmime-4.5.13.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Chtmlextentreporter\005C1.1.0\005Chtmlextentreporter-1.1.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ctech\005Cgrasshopper\005Cextent-excel-report\005C1.4.0\005Cextent-excel-report-1.4.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-email\005C1.6.0\005Ccommons-email-1.6.0.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Csun\005Cmail\005Cjakarta.mail\005C1.6.7\005Cjakarta.mail-1.6.7.jar;C:\005CUsers\005CYadira\005C.m2\005Crepository\005Ccom\005Csun\005Cactivation\005Cjakarta.activation\005C1.2.1\005Cjakarta.activation-1.2.1.jar;
+
+
+# Created at 2024-05-20T13:46:57.760
+Unexpected IOException: I,2,sun.cpu.endian,little
+
+
+# Created at 2024-05-20T13:46:57.762
+Unexpected IOException: I,2,user.home,C:\005CUsers\005CYadira
+
+
+# Created at 2024-05-20T13:46:57.767
+Unexpected IOException: I,2,user.language,es
+
+
+# Created at 2024-05-20T13:46:57.768
+Unexpected IOException: I,2,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2024-05-20T13:46:57.769
+Unexpected IOException: I,2,java.version.date,2024-01-16
+
+
+# Created at 2024-05-20T13:46:57.770
+Unexpected IOException: I,2,java.home,C:\005CProgram Files\005CJava\005Cjdk-11
+
+
+# Created at 2024-05-20T13:46:57.772
+Unexpected IOException: I,2,file.separator,\005C
+
+
+# Created at 2024-05-20T13:46:57.773
+Unexpected IOException: I,2,basedir,C:\005CUsers\005CYadira\005CIdeaProjects\005CCucumberDemo
+
+
+# Created at 2024-05-20T13:46:57.774
+Unexpected IOException: I,2,java.vm.compressedOopsMode,32-bit
+
+
+# Created at 2024-05-20T13:46:57.775
+Unexpected IOException: I,2,line.separator,\000D\000A
+
+
+# Created at 2024-05-20T13:46:57.776
+Unexpected IOException: I,2,java.specification.name,Java Platform API Specification
+
+
+# Created at 2024-05-20T13:46:57.777
+Unexpected IOException: I,2,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2024-05-20T13:46:57.778
+Unexpected IOException: I,2,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created at 2024-05-20T13:46:57.779
+Unexpected IOException: I,2,surefire.real.class.path,C:\005CUsers\005CYadira\005CAppData\005CLocal\005CTemp\005Csurefire1104669146400363251\005Csurefirebooter8576814789302426566.jar
+
+
+# Created at 2024-05-20T13:46:57.780
+Unexpected IOException: I,2,user.script,
+
+
+# Created at 2024-05-20T13:46:57.782
+Unexpected IOException: I,2,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2024-05-20T13:46:57.782
+Unexpected IOException: I,2,java.runtime.version,11.0.22+9-LTS-219
+
+
+# Created at 2024-05-20T13:46:57.783
+Unexpected IOException: I,2,user.name,Yadira
+
+
+# Created at 2024-05-20T13:46:57.785
+Unexpected IOException: I,2,path.separator,;
+
+
+# Created at 2024-05-20T13:46:57.786
+Unexpected IOException: I,2,os.version,10.0
+
+
+# Created at 2024-05-20T13:46:57.789
+Unexpected IOException: I,2,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created at 2024-05-20T13:46:57.792
+Unexpected IOException: I,2,file.encoding,Cp1252
+
+
+# Created at 2024-05-20T13:46:57.793
+Unexpected IOException: I,2,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created at 2024-05-20T13:46:57.794
+Unexpected IOException: I,2,java.vendor.version,18.9
+
+
+# Created at 2024-05-20T13:46:57.794
+Unexpected IOException: I,2,localRepository,C:\005CUsers\005CYadira\005C.m2\005Crepository
+
+
+# Created at 2024-05-20T13:46:57.796
+Unexpected IOException: I,2,java.vendor.url.bug,https://bugreport.java.com/bugreport/
+
+
+# Created at 2024-05-20T13:46:57.796
+Unexpected IOException: I,2,java.io.tmpdir,C:\005CUsers\005CYadira\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2024-05-20T13:46:57.797
+Unexpected IOException: I,2,java.version,11.0.22
+
+
+# Created at 2024-05-20T13:46:57.798
+Unexpected IOException: I,2,user.dir,C:\005CUsers\005CYadira\005CIdeaProjects\005CCucumberDemo
+
+
+# Created at 2024-05-20T13:46:57.800
+Unexpected IOException: I,2,os.arch,amd64
+
+
+# Created at 2024-05-20T13:46:57.801
+Unexpected IOException: I,2,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2024-05-20T13:46:57.802
+Unexpected IOException: I,2,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created at 2024-05-20T13:46:57.803
+Unexpected IOException: I,2,sun.os.patch.level,
+
+
+# Created at 2024-05-20T13:46:57.804
+Unexpected IOException: I,2,java.library.path,C:\005CProgram Files\005CJava\005Cjdk-11\005Cbin;C:\005Cwindows\005CSun\005CJava\005Cbin;C:\005Cwindows\005Csystem32;C:\005Cwindows;C:\005CProgram Files\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005Cwindows\005Csystem32;C:\005Cwindows;C:\005Cwindows\005CSystem32\005CWbem;C:\005Cwindows\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005Cwindows\005CSystem32\005COpenSSH\005C;C:\005CProgram Files\005CJava\005Cjdk-11\005Cbin;C:\005CUsers\005CYadira\005CIdeaProjects\005CResources\005Capache-maven-3.9.6\005Cbin;C:\005CUsers\005CYadira\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;;.
+
+
+# Created at 2024-05-20T13:46:57.806
+Unexpected IOException: I,2,java.vendor,Oracle Corporation
+
+
+# Created at 2024-05-20T13:46:57.807
+Unexpected IOException: I,2,java.vm.info,mixed mode
+
+
+# Created at 2024-05-20T13:46:57.809
+Unexpected IOException: I,2,java.vm.version,11.0.22+9-LTS-219
+
+
+# Created at 2024-05-20T13:46:57.810
+Unexpected IOException: I,2,java.specification.maintenance.version,2
+
+
+# Created at 2024-05-20T13:46:57.811
+Unexpected IOException: I,2,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2024-05-20T13:46:57.812
+Unexpected IOException: I,2,java.class.version,55.0
+
+
+# Created at 2024-05-20T13:46:57.813
+Unexpected IOException: 1,2,Account Registration,Account Registration,null,null,null
+
+
+# Created at 2024-05-20T13:46:57.815
+Unexpected IOException: 5,2,Account Registration,Successful Account Registration(Account Registration),null,null,7581
+
+
+# Created at 2024-05-20T13:46:57.817
+Unexpected IOException with stream: 
+@regression
+Scenario: Successful Account Registration               # Features/Registration.feature:4
+
+
+# Created at 2024-05-20T13:46:57.817
+Unexpected IOException with stream:   Given the user navigates to Register Account page     # com.radical3d.stepDefinitions.RegistrationSteps.user_navigates_to_register_account_page()
+
+
+# Created at 2024-05-20T13:46:57.818
+Unexpected IOException with stream:   When the user enters the details into below fields    # com.radical3d.stepDefinitions.RegistrationSteps.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)
+    | firstName | John       |
+    | lastName  | Kenedy     |
+    | telephone | 1234567890 |
+    | password  | test@123   |
+
+
+# Created at 2024-05-20T13:46:57.820
+Unexpected IOException with stream:   And the user selects Privacy Policy                   # com.radical3d.stepDefinitions.RegistrationSteps.user_selects_privacy_policy()
+
+
+# Created at 2024-05-20T13:46:57.820
+Unexpected IOException with stream:   And the user clicks on Continue button                # com.radical3d.stepDefinitions.RegistrationSteps.user_clicks_on_continue_button()
+
+
+# Created at 2024-05-20T13:46:57.822
+Unexpected IOException with stream:   Then the user account should get created successfully # com.radical3d.stepDefinitions.RegistrationSteps.user_account_should_get_created_successfully()
+      org.junit.ComparisonFailure: expected:<[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.208)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bfee89aee85cca5e3ba2e96858733509, findElement {value=//h1[normalize-space()='Your Account Has Been Created!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\Yadira\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54701/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bfee89aee85cca5e3ba2e96858733509]> but was:<[Your Account Has Been Created!]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.radical3d.stepDefinitions.RegistrationSteps.user_account_should_get_created_successfully(RegistrationSteps.java:63)
+	at âœ½.the user account should get created successfully(file:///C:/Users/Yadira/IdeaProjects/CucumberDemo/./Features/Registration.feature:13)
+
+
+
+# Created at 2024-05-20T13:46:57.823
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.208)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bfee89aee85cca5e3ba2e96858733509, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\Yadira\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54701/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bfee89aee85cca5e3ba2e96858733509
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at com.radical3d.stepDefinitions.Hooks.addScreenshot(Hooks.java:50)
+
+
+
+# Created at 2024-05-20T13:46:57.826
+Unexpected IOException: 8,2,Account Registration,Successful Account Registration(Account Registration),null,expected:<[no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C findElement {value=//h1[normalize-space()='Your Account Has Been Created!']\002C using=xpath}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509]> but was:<[Your Account Has Been Created!]>,7581,expected:<[no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C findElement {value=//h1[normalize-space()='Your Account Has Been Created!']\002C using=xpath}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509]> but was:<[Your Account Has Been Created!]>,expected:<[no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C findElement {value=//h1[normalize-space()='Your Account Has Been Created!']\002C using=xpath}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509]> but was:<[Your Account Has Been Created!]>,org.junit.ComparisonFailure: \000Aexpected:<[no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C findElement {value=//h1[normalize-space()='Your Account Has Been Created!']\002C using=xpath}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509]> but was:<[Your Account Has Been Created!]>\000A
+
+
+# Created at 2024-05-20T13:46:57.829
+Unexpected IOException: 5,2,Account Registration,Successful Account Registration(Account Registration),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509,0,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509\000A
+
+
+# Created at 2024-05-20T13:46:57.831
+Unexpected IOException: 7,2,Account Registration,Successful Account Registration(Account Registration),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509,0,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bfee89aee85cca5e3ba2e96858733509\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54701}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54701/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bfee89aee85cca5e3ba2e96858733509\000A
+
+
+# Created at 2024-05-20T13:46:57.833
+Unexpected IOException: 2,2,Account Registration,Account Registration,null,null,7581
+
+
+# Created at 2024-05-20T13:46:57.834
+Unexpected IOException: 1,2,Login with Valid Credentials,Login with Valid Credentials,null,null,null
+
+
+# Created at 2024-05-20T13:46:57.835
+Unexpected IOException: 5,2,Login with Valid Credentials,Successful Login with Valid Credentials(Login with Valid Credentials),null,null,17109
+
+
+# Created at 2024-05-20T13:46:57.836
+Unexpected IOException with stream: 
+@sanity @regression
+Scenario: Successful Login with Valid Credentials                              # Features/Login.feature:4
+
+
+# Created at 2024-05-20T13:46:57.837
+Unexpected IOException with stream:   Given the user navigates to login page                                       # com.radical3d.stepDefinitions.LoginSteps.user_navigate_to_login_page()
+
+
+# Created at 2024-05-20T13:46:57.838
+Unexpected IOException with stream:   When user enters email as "pavanoltraining@x.com" and password as "test@123" # com.radical3d.stepDefinitions.LoginSteps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+
+
+# Created at 2024-05-20T13:46:57.839
+Unexpected IOException with stream:   And the user clicks on the Login button                                      # com.radical3d.stepDefinitions.LoginSteps.click_on_login_button()
+
+
+# Created at 2024-05-20T13:46:57.840
+Unexpected IOException with stream:   Then the user should be redirected to the MyAccount Page                     # com.radical3d.stepDefinitions.LoginSteps.user_navigates_to_my_account_page()
+      java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.radical3d.stepDefinitions.LoginSteps.user_navigates_to_my_account_page(LoginSteps.java:62)
+	at âœ½.the user should be redirected to the MyAccount Page(file:///C:/Users/Yadira/IdeaProjects/CucumberDemo/./Features/Login.feature:8)
+
+
+
+# Created at 2024-05-20T13:46:57.842
+Unexpected IOException with stream:       org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=124.0.6367.208)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf0d2d42bcf7938a70ef8a576dfa8031, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\Yadira\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54677/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf0d2d42bcf7938a70ef8a576dfa8031
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at com.radical3d.stepDefinitions.Hooks.addScreenshot(Hooks.java:50)
+
+
+
+# Created at 2024-05-20T13:46:57.843
+Unexpected IOException: 8,2,Login with Valid Credentials,Successful Login with Valid Credentials(Login with Valid Credentials),null,expected:<false> but was:<true>,17109,expected:<false> but was:<true>,expected:<false> but was:<true>,java.lang.AssertionError: expected:<false> but was:<true>\000A
+
+
+# Created at 2024-05-20T13:46:57.845
+Unexpected IOException: 5,2,Login with Valid Credentials,Successful Login with Valid Credentials(Login with Valid Credentials),null,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cf0d2d42bcf7938a70ef8a576dfa8031\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54677}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54677/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cf0d2d42bcf7938a70ef8a576dfa8031,0,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cf0d2d42bcf7938a70ef8a576dfa8031\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54677}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54677/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cf0d2d42bcf7938a70ef8a576dfa8031,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cf0d2d42bcf7938a70ef8a576dfa8031\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54677}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54677/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cf0d2d42bcf7938a70ef8a576dfa8031,org.openqa.selenium.WebDriverException: \000Adisconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cf0d2d42bcf7938a70ef8a576dfa8031\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54677}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54677/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cf0d2d42bcf7938a70ef8a576dfa8031\000A
+
+
+# Created at 2024-05-20T13:46:57.847
+Unexpected IOException: 7,2,Login with Valid Credentials,Successful Login with Valid Credentials(Login with Valid Credentials),null,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cf0d2d42bcf7938a70ef8a576dfa8031\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54677}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54677/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cf0d2d42bcf7938a70ef8a576dfa8031,0,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cf0d2d42bcf7938a70ef8a576dfa8031\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54677}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54677/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cf0d2d42bcf7938a70ef8a576dfa8031,disconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cf0d2d42bcf7938a70ef8a576dfa8031\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54677}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54677/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cf0d2d42bcf7938a70ef8a576dfa8031,org.openqa.selenium.WebDriverException: \000Adisconnected: not connected to DevTools\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=124.0.6367.208)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.22'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cf0d2d42bcf7938a70ef8a576dfa8031\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.208\002C chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f...\002C userDataDir: C:\005CUsers\005CYadira\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:54677}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:54677/devtoo...\002C se:cdpVersion: 124.0.6367.208\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cf0d2d42bcf7938a70ef8a576dfa8031\000A
+
+
+# Created at 2024-05-20T13:46:57.848
+Unexpected IOException: 2,2,Login with Valid Credentials,Login with Valid Credentials,null,null,17109
+
+
