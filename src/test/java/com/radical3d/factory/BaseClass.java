@@ -17,13 +17,13 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class BaseClass {
-
-		 static WebDriver driver;
+		static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	     static Properties p;
 	     static Logger logger;
 	  	     
 	public static WebDriver initilizeBrowser() throws IOException
 	{
+		WebDriver driver=null;
 		if(getProperties().getProperty("execution_env").equalsIgnoreCase("remote"))
 		{
 			DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -68,14 +68,15 @@ public class BaseClass {
 			}
 		 driver.manage().deleteAllCookies(); 
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		 driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
-		 
-		 return driver;
+		 driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+
+		 tlDriver.set(driver);
+		 return tlDriver.get();
 		 
 	}
 	
 	public static WebDriver getDriver() {
-			return driver;
+			return tlDriver.get();
 		}
 
 	public static Properties getProperties() throws IOException
@@ -113,6 +114,10 @@ public class BaseClass {
 	 String num=RandomStringUtils.randomNumeric(10);
 	return str+num;
 	}
-	
+
+	public  static void teardDown(){
+		tlDriver.get().quit();
+		tlDriver.remove();
+	}
 	
 }
